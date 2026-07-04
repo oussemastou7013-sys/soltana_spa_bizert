@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X, MapPin, Phone, Instagram, Clock } from 'lucide-react';
-import Services from './Services';
+import Services from './Services.tsx';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
